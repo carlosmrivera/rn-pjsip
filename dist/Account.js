@@ -9,6 +9,15 @@ export default class Account {
     this._registration = new AccountRegistration(data['registration']);
   }
   /**
+   * The account Data.
+   * @returns {Object}
+   */
+
+
+  getData() {
+    return this._data;
+  }
+  /**
    * The account ID.
    * @returns {int}
    */

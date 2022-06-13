@@ -725,7 +725,7 @@ export default class Endpoint extends EventEmitter {
       if (!realm) {
         realm = account.getDomain();
         /*let s = realm.indexOf(":");
-         if (s > 0) {
+          if (s > 0) {
             realm = realm.substr(0, s + 1);
         }*/
       }

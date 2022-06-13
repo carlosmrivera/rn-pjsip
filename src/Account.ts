@@ -30,6 +30,14 @@ export default class Account {
     }
 
     /**
+     * The account Data.
+     * @returns {Object}
+     */
+     getData(): Object {
+        return this._data;
+    }
+
+    /**
      * The account ID.
      * @returns {int}
      */
